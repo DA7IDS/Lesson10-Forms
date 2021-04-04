@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>Lesson10 - Forms</title>
 </head>
@@ -57,13 +58,27 @@
         <iframe class="direction" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48361.384527735325!2d-74.02607610224081!3d40.74912265778626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd22e348958a294d8!2sChito%20Gvrito!5e0!3m2!1sen!2sge!4v1617538848657!5m2!1sen!2sge"
             style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </section>
-    <section class="contact">
-        <p class="contact-paragraph1">Contact</p>
-        <p class="contact-paragraph2">Contact us to get free support</p>
-        <div>
-            <form action="/" method="get">
+    <section>
+        <div class="contact">
+            <p class="contact-paragraph1">Contact</p>
+            <p class="contact-paragraph2">Contact us to get free support</p>
 
+            <form class="contact-forms" action="/" method="get">
+                <div class="left-form">
+                    <label for="textarea"></label>
+                    <textarea class="textarea" name="description" id="" placeholder="Description" required></textarea>
+                </div>
+                <div class="right-form">
+                    <label for="subject"></label>
+                    <input class="right-input" type="text" id="subject" name="subject" placeholder="Subject" required>
+                    <label for="name"></label>
+                    <input class="right-input" type="text" id="name" name="name" placeholder="Name / Surname" required>
+                    <label for="email"></label>
+                    <input class="right-input" type="text" id="email" name="email" placeholder="Email" required>
+                    <button class="submit" type="submit" value="Submit">Send <i class="fas fa-paper-plane"></i></button>
+                </div>
             </form>
+
         </div>
     </section>
 </body>
