@@ -182,3 +182,84 @@ header {
 .fa-paper-plane {
     margin-left: 5px;
 }
+
+.contact-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-box {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 145px;
+}
+
+.box-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5863F8;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.box-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.box-info {
+    color: #B1B1B1;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/* section #3 - photos */
+
+.photos {
+    width: 100%;
+    margin-top: 90px;
+}
+
+.photo-paragraphs {
+    width: 85%;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.photo-paragraph1 {
+    color: #5863F8;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.photo-paragraph2 {
+    color: #000000;
+    font-size: 42px;
+    font-weight: 800;
+    width: 50%;
+}
+
+.photo-img {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 30%
+}
+
+.image img {
+    width: 100%;
+}
+
+
+/* footer */
